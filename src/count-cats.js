@@ -15,7 +15,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function countCats(backyard) {
-  throw new NotImplementedError('Not implemented');
+  //throw new NotImplementedError('Not implemented');
 
   let newArr = backyard.flat() 
   let result = 0
