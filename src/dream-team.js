@@ -16,6 +16,7 @@ const { NotImplementedError } = require('../extensions/index.js');
 function createDreamTeam(arr) {
   //throw new NotImplementedError('Not implemented');
 
+  // Проверяем полученный аргумент на типы, возвращаем false если это не массив и не строка, Array.isArray() возвращает true если объект массив
   if (typeof(arr) == 'number' || arr === null || arr === false || arr === undefined || Array.isArray(arr) == false) {
     return false
   }
